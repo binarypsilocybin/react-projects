@@ -2,7 +2,6 @@ import React from "react";
 import moment from "moment";
 
 const Article = ({ title, snippet, date, length }) => {
-  console.log(date);
   return (
     <article className="post">
       <h2>{title}</h2>
